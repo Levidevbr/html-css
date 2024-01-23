@@ -1,0 +1,325 @@
+/*
+Configurações gerais
+*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'titlefilme';
+    src: url(fontes/Film\ Noir\ Adventure\ Italic.otf) format('opentype');
+    font-weight: normal;
+}
+:root{
+    --fonttexto: 'Arial', Helvetica, sans-serif;
+    --fontheader: 'Anton', sans-serif;
+    --fontsubtitulo: 'titlefilme', sans-serif;
+    --cor01: #F2766B;
+    --cor02: #D94032;
+    --cor03: #8C1414;
+    --cor04: #590A0A;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cor01);
+    text-align: justify;
+}
+
+strong{
+    color: #F2766B;
+}
+
+@media screen and (max-width: 1020px) {
+    .navegador, .navbutton{
+        display: none;
+    }
+}
+
+
+/*
+Cabeçalho
+*/
+header{
+    background-color: var(--cor04);
+    background-image: linear-gradient(to bottom, var(--cor03),var(--cor04));
+    font-family: var(--fontheader);
+    padding: 25px;
+    box-shadow: 0px 2px 10px 1px var(--cor04);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logoh1{
+    text-shadow: 5px 8px 6px black;
+    font-size: 1.5em;
+    font-family: var(--fontheader);
+    background:  none;
+    border-style: none;
+    color: white;
+    margin-right: -20px;
+}
+
+.menubar{
+    list-style-type: none;
+    display: flex;
+    text-shadow: 5px 8px 6px black;
+
+}
+
+.navegation{
+    color: white;
+    text-decoration: none;
+    padding: 4px 6px;
+}
+
+.navegation:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.contato{
+    text-decoration: none;
+    background-color: none;
+}
+
+.navbutton{
+    text-decoration: none;
+}
+
+.contato {
+    text-shadow: 5px 8px 6px black;
+    font-size: 2em;
+    font-family: var(--fontheader);
+    background:  none;
+    border-style: none;
+    margin-left: 70px;
+    color: white;
+}
+.contato:hover{
+    transform: scale(1.08);
+}
+/*
+Cabeçalho
+*/
+
+
+/*
+Corpo
+*/
+main{
+    min-width: 450px;
+    max-width: 1200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+    font-family: var(--fonttexto);
+}
+
+p{
+    line-height: 2em;
+    font-size: 1.2em;
+    text-indent: 30px;
+}
+
+.mncorpo{
+    align-items: center;
+    text-align: justify;
+}
+
+.divapresentacao{
+    padding: 20px 20px 0px 20px;
+}
+
+.divapresentacao > h1{
+    color: var(--cor04);
+    text-shadow: 0px 1px 3px black black;
+    font-family: var(--fontsubtitulo);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, var(--cor01),transparent);
+}
+
+.imgoscar{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px #0000008f;
+}
+
+.divorigem{
+    padding: 0px 20px 20px 20px;
+}
+
+.divorigem > h2{
+    background-image: linear-gradient(to right, var(--cor01),transparent);
+    color: var(--cor04);
+    font-family: var(--fontsubtitulo);
+}
+
+.linkexternal{
+    text-decoration:none;
+    color: var(--cor01);
+}
+
+.linkexternal:hover{
+    text-decoration: underline;
+}
+
+.linkexternal::after{
+    content: "🔗"
+}
+
+.imgluis{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px #0000008f;
+
+}
+
+.divmelhoresfilmes{
+    background-color: #590a0a;
+    color: white;
+    padding-top: 40px;
+}
+
+.caixatituloindic{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tituloindic{
+    text-shadow: 5px 8px 6px black;
+    font-family: var(--fontsubtitulo);
+    background-image: linear-gradient(to right, black,transparent);
+    color: #F2766B;
+    margin-bottom: 20px;
+}
+
+.caixatituloindic > p{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.divindicações{
+    margin-left: 50px;
+    text-align: left;
+    display: block;    
+}
+
+.subtitulo{
+    color: var(--cor01);
+    text-shadow: 5px 8px 6px black;
+    font-family: var(--fontsubtitulo);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imgfilmes{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 13px 8px #00000066;
+}
+
+.filmesparagrafo{
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0px 120px;
+    text-shadow: 5px 8px 6px black;
+}
+
+.sinopse{
+    text-align: center;
+    text-shadow: 5px 8px 6px black;
+    margin-top: 20px;
+
+}
+
+
+.indicacao{
+    text-align: center;
+    text-shadow: 5px 8px 6px black;
+    font-size: 0.8em;
+}
+
+img{
+    width: 82%;
+}
+
+.traileryt{
+    position: relative;
+    padding-bottom: 37.899%;
+}
+
+.traileryt > iframe{
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    width: 57%;
+    height: 85%;
+}
+
+.agradecimentos{
+    text-align: justify;
+    margin: 0px 100px;
+}
+
+
+/*
+Corpo
+*/
+
+
+/*
+Rodape
+*/
+
+footer{
+    height: auto;
+    background-color: var(--cor04);
+    font-family: var(--fontheader);
+}
+
+.rodapeparagrafo {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 5px 8px 6px black;
+}
+
+.rodapebox{
+    text-align: center;
+    padding-top: 9px;
+}
+
+.listaimg{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.boximg{
+    padding-left: 6px;
+}
+
