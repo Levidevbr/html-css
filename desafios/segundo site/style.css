@@ -116,7 +116,7 @@ Cabeçalho
 Corpo
 */
 main{
-    min-width: 450px;
+    min-width: 300px;
     max-width: 1200px;
     background-color: white;
     margin: auto;
