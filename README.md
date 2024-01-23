@@ -9,8 +9,8 @@ Este repositório foi criado com o único propósito de documentar e exibir meu 
 
 ## Sites desenvolvidos
 
-- <a href="https://levidevbr.github.io/html-css/desafios/primeiro%20site/index.html">Curiosidade de Tecnologia</a>
-- <a href="https://levidevbr.github.io/html-css/desafios/segundo%20site/index.html">MoovieMania</a>
+- <a href="https://levidevbr.github.io/html-css/desafios/primeiro%20site/index.html" target="_blank" rel="external">Curiosidade de Tecnologia</a>
+- <a href="https://levidevbr.github.io/html-css/desafios/segundo%20site/index.html" target="_blank" rel="external">MoovieMania</a>
 
 ## Como Navegar
 
