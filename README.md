@@ -7,6 +7,11 @@ Este repositório foi criado com o único propósito de documentar e exibir meu 
 - **Exercícios:** Apreendizados dos codigos de html e css.
 - **Desafios:** Montagem dos sites com os codigos estudados.
 
+## Sites desenvolvidos
+
+- <a href="https://levidevbr.github.io/html-css/desafios/primeiro%20site/index.html">Curiosidade de Tecnologia** </a>
+- <a href="https://levidevbr.github.io/html-css/desafios/segundo%20site/index.html">MoovieMania</a>
+
 ## Como Navegar
 
 Sinta-se à vontade para explorar os diferentes diretórios e projetos listados acima.
