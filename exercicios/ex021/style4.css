@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    border: 2px solid black;
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    height: 97vh;
+    background-position: center center;
+}
