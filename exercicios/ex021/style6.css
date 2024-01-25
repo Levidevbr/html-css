@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 #container{
-    height: 98vh;
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
     background-color: yellow;
     background-image: url(imagens/target001.png); 
     background-size: 100% 100%;

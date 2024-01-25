@@ -1,0 +1,96 @@
+/*
+Configuração geral
+*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'cordel';
+    src: url(fonte/cordelina.otf) format('opentype');
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fontcabecalho:'Anton';
+    --fontcordel: 'cordel';
+    --fontpadrao: 'Times New Roman', Times, serif;
+}
+
+strong{
+    font-family: var(--fontcabecalho);
+    font-weight: normal;
+}
+/*
+Configuração geral
+*/
+
+
+
+/*
+Configuração cabecaçalho
+*/
+header{
+    width: auto;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecalhoconfig{
+    color: white;
+    font-family: var(--fontcabecalho);
+}
+
+.cabecalhotitulo{
+    font-size: 10em;
+    text-align: center;    
+}
+
+.cabecalhocomplemento{
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover::after{
+    content: "🔗";
+}
+
+
+
+/*
+Configuração Rodape
+*/
+#rodapeconfig{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.linksconfig{
+}
+
+ul{
+    padding-top: 8px;
+}
+
+.listaconfig{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 2px;
+}
