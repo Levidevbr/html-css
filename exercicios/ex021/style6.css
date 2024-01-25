@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#container{
+    height: 98vh;
+    background-color: yellow;
+    background-image: url(imagens/target001.png); 
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*
+Se quiser-mos 
+
+mexer no elemento devemos sempre utilizar os seguinte comando
+
+display: flex
+align-item: star center e end  (vertical)
+justify=content: star center e end (horizonte)
+
+*/
+
+
+
+#conteudo{
+    height: 200px;
+    width: 50%;
+    background-color: blueviolet;
+    
+
+}
