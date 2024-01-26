@@ -14,6 +14,9 @@ Configuração geral
     padding: 0px;
 }
 
+body{
+}
+
 :root{
     --fontcabecalho:'Anton';
     --fontcordel: 'cordel';
@@ -34,8 +37,7 @@ Configuração geral
 Configuração cabecaçalho
 */
 header{
-    width: auto;
-    height: 400px;
+    height: auto;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -48,15 +50,17 @@ header{
 }
 
 .cabecalhotitulo{
-    font-size: 10em;
-    text-align: center;    
+    font-size: 10vw;
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 40px;  
 }
 
 .cabecalhocomplemento{
     text-align: center;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
-
+    padding-bottom: 40px;
 }
 
 a{
@@ -67,6 +71,41 @@ a{
 .link:hover::after{
     content: "🔗";
 }
+/*
+Configuração cabecaçalho
+*/
+
+
+
+/*
+Configuração corpo
+*/
+.corponormal{
+    font-family: var(--fontcordel);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    line-height: 1.5em;
+    font-size: 1.5em;  
+}
+
+.corpoimagem{
+    font-family: var(--fontcordel);
+    background-color: gray;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    line-height: 1.5em;
+    font-size: 1.5em;  
+}
+
+.doisparagrafos{
+    padding-bottom: 20px;
+}
+
+/*
+Configuração corpo
+*/
 
 
 
@@ -94,3 +133,6 @@ ul{
     display: inline-block;
     padding: 0px 2px;
 }
+/*
+Configuração Rodape
+*/
