@@ -108,7 +108,7 @@ Configuração corpo
 
 .corpoimagem > p{
     background-color: rgb(0 0 0 / 31%);
-    width: 400px;
+    width: auto;
     padding: 20px;
 }
 
