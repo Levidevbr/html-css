@@ -17,6 +17,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main{
@@ -51,8 +52,16 @@ Configuração Body
     margin: auto;
 }
 
-iframe{
-    
+#pagina-home{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+}
+
+.pagina-face{
+
 }
 
 #menubar{
@@ -63,12 +72,13 @@ iframe{
 
 img{
     width: 60px;
-    border-radius: 100px;
-    border: 2px solid rgba(255, 255, 255, 0.493);
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 4px 3px 15px 2px black;
 }
 
 img:hover{
-    box-shadow: 5px 5px 5px;
+    border: 1px solid white;
 }
 
 li{
