@@ -10,10 +10,10 @@ Este repositório foi criado com o único propósito de documentar e exibir meu 
 ## Sites desenvolvidos
 
 <ul>
-    <li><a href="https://levidevbr.github.io/html-css/desafios/primeiro%20site/index.html" target="_blank" rel="external">Curiosidade de Tecnologia</a></li>
-    <li><a href="https://levidevbr.github.io/html-css/desafios/segundo%20site/index.html" target="_blank" rel="external">MoovieMania</a></li>
-    <li><a href="https://levidevbr.github.io/html-css/desafios/terceiro%20site/index.html" target="_blank" rel="external">Projeto Cordel</a></li>
-    <li><a href="https://levidevbr.github.io/html-css/desafios/quarto%20site/index.html" target="_blank" rel="external">Projeto Redes-Sociais</a></li>
+    <li><a href="https://levidevbr.github.io/html-css/desafios/1%20site/index.html" target="_blank" rel="external">Curiosidade de Tecnologia</a></li>
+    <li><a href="https://levidevbr.github.io/html-css/desafios/2%20site/index.html" target="_blank" rel="external">MoovieMania</a></li>
+    <li><a href="https://levidevbr.github.io/html-css/desafios/3%20site/index.html" target="_blank" rel="external">Projeto Cordel</a></li>
+    <li><a href="https://levidevbr.github.io/html-css/desafios/4%20site/index.html" target="_blank" rel="external">Projeto Redes-Sociais</a></li>
 </ul>
 
 ## Como Navegar
@@ -22,7 +22,7 @@ Sinta-se à vontade para explorar os diferentes diretórios e projetos listados 
 
 ## Progresso Atual
 
-Atualmente, estou focado em melhorar minha compreensão de [estudos de IFRAMES para poder iniciar minha apreendizagem em JAVASCRIPT]. Ao longo do tempo, planejo expandir minha base de conhecimento para abranger outros tópicos relacionados ao desenvolvimento web.
+Atualmente, estou focado em melhorar minha compreensão de [estudos de formularios para poder iniciar minha apreendizagem em JAVASCRIPT]. Ao longo do tempo, planejo expandir minha base de conhecimento para abranger outros tópicos relacionados ao desenvolvimento web.
 
 ## Contribuições
 
