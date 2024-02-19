@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 06</title>
+</head>
+<style>
+    div{
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
+<body>
+    <h1>Formulario de exemplo</h1>
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <div>
+                    <label for="icor">Cor:</label>
+                    <input type="color" name="cores" id="icor" value="#00ff00">
+                </div>
+                <div>
+                    <label for="isatis">Satisfação</label>
+                    <input type="range" name="satis" id="isatis" min="1" max="3" value="1">
+                </div>
+                <div>
+                    <label for="iarquivo">Foto de Perfil:</label>
+                    <input type="file" name="arquivo" id="iarquivo">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>
