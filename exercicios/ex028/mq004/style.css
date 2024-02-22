@@ -19,26 +19,23 @@ h1{
     text-shadow: 3px 3px 3px black;
     text-align: center;
     padding: 20px;
+    font-size: 1.8em;
 }
 
 img{
     padding: 5px;
+    display: block;
+    margin: auto;
 }
 
 div{
     background-color: rgba(255, 255, 255, 0.418);
-    margin: 25px;
     border-radius: 5px;
-    width: 500px;
+    width: 400px;
     margin: auto;
     margin-top: 20px;
 }
 
-#tv,#impre,#tablet,#desk{
+#tv,#impre,#tablet,#pc{
     display: none;
-}
-
-#cel{
-    display: block;
-    margin: auto;
 }
