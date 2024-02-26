@@ -15,6 +15,7 @@ Este repositório foi criado com o único propósito de documentar e exibir meu 
     <li><a href="https://levidevbr.github.io/html-css/desafios/3%20site/index.html" target="_blank" rel="external">Projeto Cordel</a></li>
     <li><a href="https://levidevbr.github.io/html-css/desafios/4%20site/index.html" target="_blank" rel="external">Projeto Redes-Sociais</a></li>
     <li><a href="https://levidevbr.github.io/html-css/desafios/5%20site/index.html" target="_blank" rel="external">Projeto Responsivo com Burguer</a></li>
+    <li><a href="https://levidevbr.github.io/html-css/desafios/6%20site/index.html" target="_blank" rel="external">Projeto Login</a></li>
 </ul>
 
 ## Como Navegar
