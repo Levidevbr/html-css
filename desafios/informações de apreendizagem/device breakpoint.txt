@@ -1,10 +1,10 @@
 
 
 
-celular/pequeno 600 a 768
+/*celular/pequeno 600 a 768
 
 tablet 769 a 992
 
 pc 993 a 1200
 
-tv/grande acima de 1201
+tv/grande acima de 1201*/
