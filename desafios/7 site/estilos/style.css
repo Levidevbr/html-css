@@ -89,7 +89,7 @@ main{
 input[type=email],[type=text]{
     border-radius: 20px;
     height: 40px;
-    width: 400px;
+    width: 350px;
     margin-bottom: 20px;
     padding-left: 20px;
 }
