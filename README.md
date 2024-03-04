@@ -17,6 +17,7 @@ Este repositório foi criado com o único propósito de documentar e exibir meu 
     <li><a href="https://levidevbr.github.io/html-css/desafios/5%20site/index.html" target="_blank" rel="external">Projeto Responsivo com Burguer</a></li>
     <li><a href="https://levidevbr.github.io/html-css/desafios/6%20site/index.html" target="_blank" rel="external">Projeto Login</a></li>
     <li><a href="https://levidevbr.github.io/html-css/desafios/7%20site/index.html" target="_blank" rel="external">Projeto Pading Page</a></li>
+    <li><a href="https://levidevbr.github.io/html-css/desafios/8%20site/index.html" target="_blank" rel="external">Projeto Pading Page</a></li>
 </ul>
 
 ## Como Navegar
