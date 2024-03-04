@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
-
+@media screen and (min-width: 993px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.822) 0 0), url(imagens/img5.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;;
+    }
 }
