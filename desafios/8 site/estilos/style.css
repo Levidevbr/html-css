@@ -77,7 +77,6 @@ Header
 /*
 Corpo
 */
-
 main{
     display: flex;
     flex-direction: column;
