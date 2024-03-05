@@ -11,7 +11,7 @@ Geral
 }
 
 body{
-    background: linear-gradient(rgba(0, 0, 0, 0.822) 0 0), url(imagens/img5.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.822) 0 0), url(../imagens/img5.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
