@@ -26,7 +26,7 @@ Sinta-se à vontade para explorar os diferentes diretórios e projetos listados 
 
 ## Progresso Atual
 
-Atualmente, estou focado em melhorar minha compreensão de [estudos de form login para poder iniciar minha apreendizagem em JAVASCRIPT]. Ao longo do tempo, planejo expandir minha base de conhecimento para abranger outros tópicos relacionados ao desenvolvimento web.
+Atualmente, estou focado em melhorar minha compreensão de [estudos em JAVASCRIPT]. Ao longo do tempo, planejo expandir minha base de conhecimento para abranger outros tópicos relacionados ao desenvolvimento web.
 
 ## Contribuições
 
