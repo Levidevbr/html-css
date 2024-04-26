@@ -4,51 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
-    <title>Portifolio</title>
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
+    <title>Portifólio</title>
 </head>
 <body>
-
     <header>
         <h1 class="h1-header">Levidev<span>&#169;</span></h1>
         <nav>
             <ul>
                 <li><a class="a-header" href="index.html">Sobre</a></li>
-                <li><a class="a-header" href="#">Portifólio</a></li>
-                <li><a class="a-header" href="#">Objetivo</a></li>
-                <li><a class="a-header" href="#">Contato</a></li>
+                <li><a class="a-header" href="#div-conteudo">Portifólio</a></li>
+                <li><a class="a-header" href="#h2-contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="div-conteudo">
-            <h1 class="h2-conteudo">Eu sou Leonardo</h1>
-            <p class="p-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eaque magni repudiandae labore, consequatur debitis fuga eveniet tempora, beatae esse sit illum voluptates ipsa ipsam quisquam placeat inventore? Voluptate, numquam.</p>
-            <button><a href="img/Currículo Leonardo Vinicius Rosa de Sousa (3).pdf" download="Currículo Leonardo Vinicius Rosa de Sousa (3).pdf">DOWNLOAD CURRÍCULO</a></button>
-            <button><a href="https://github.com/Levidevbr" target="_blank">GITHUB</a></button>
+        <div class="main">
+            <div class="div-conteudo">
+                <h1 class="h2-conteudo">Eu sou Leonardo</h1>
+                <p class="p-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eaque magni repudiandae labore, consequatur debitis fuga eveniet tempora, beatae esse sit illum voluptates ipsa ipsam quisquam placeat inventore? Voluptate, numquam.</p>
+                <button><a href="img/Currículo Leonardo Vinicius Rosa de Sousa (3).pdf" download="Currículo Leonardo Vinicius Rosa de Sousa (3).pdf">DOWNLOAD CURRÍCULO</a></button>
+                <button><a href="https://github.com/Levidevbr" target="_blank">GITHUB</a></button>
+            </div>
+            <div>
+                <img src="img/img-leo.png" alt="">
+            </div>
         </div>
-        <div>
-            <img src="img/WhatsApp Image 2024-04-25 at 17.11.42.png" alt="">
+        <div class="section">
+            <div id="div-conteudo">
+                <h1 class="h2-section">Portifólio</h1>
+                <p class="p-section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque soluta suscipit tempore unde eius tenetur sapiente.</p>
+            </div>
+            <div class="div-container">
+                <div class="container-section">
+                    <iframe class="iframe" src="frame/port-01.html" frameborder="0"></iframe>
+                </div>
+                <div class="container-section">
+                    <iframe class="iframe" src="frame/port-02.html" frameborder="0"></iframe>
+                </div>
+                <div class="container-section">
+                    <iframe class="iframe" src="frame/port-03.html" frameborder="0"></iframe>
+                </div>
+            </div>
+            <button>
+                <a href="https://github.com/Levidevbr/html-css?tab=readme-ov-file#meu-progresso-em-html-e-css" target="_blank">VER MAIS...</a>
+            </button>
+        </div>
+        <div class="div-contato">
+            <form action="formulario.php" method="get" autocomplete="off">
+                <h2 id="h2-contato">FALE COMIGO</h2>
+                <div>
+                    <input class="input-contato" type="text" placeholder="Seu nome...">
+                </div>
+                <div>
+                    <input class="input-contato type="email" placeholder="Seu e-mail...">
+                </div>
+                <div>
+                    <input class="input-contato type="tel" placeholder="Seu celular...">
+                </div>
+                <div>
+                    <textarea cols="100" rows="23" placeholder="Mensagem..."></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
         </div>
     </main>
-    
-    <section>
-        <div class="div-conteudo">
-            <h1 class="h2-section">Portifólio</h1>
-            <p class="p-section">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque soluta suscipit tempore unde eius tenetur sapiente.</p>
-        </div>
-        <div class="div-container">
-            <div class="container-section">
-                <a href=""></a>
-            </div>
-            <div class="container-section">
-                <a href=""></a>
-            </div>
-            <div class="container-section">
-                <a href=""></a>
-            </div>
-        </div>
-        <button><a href="">Ver mais...</a></button>
-    </section>
 </body>
 </html>

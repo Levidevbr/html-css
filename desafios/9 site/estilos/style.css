@@ -5,6 +5,10 @@ Geral
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -81,9 +85,9 @@ Cabeçalho
 
 
 /*
-Corpo
+Div Main
 */
-main{
+.main{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,6 +95,10 @@ main{
     height: 100vh;
     padding: 35px 10%;
 
+}
+
+#div-conteudo{
+    width: 600px;
 }
 
 .div-conteudo{
@@ -119,8 +127,15 @@ button{
 a:hover{
     color: #cacaca;
 }
+/*
+Div Main
+*/
 
-section{
+
+/*
+Div Section 
+*/
+.section{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,8 +156,15 @@ section{
 .container-section{
     width: 400px;
     height: 600px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.377);
     margin: 0px 35px;
+    border-radius: 5px;
+}
+
+.iframe{
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
 }
 
 .div-container{
@@ -152,5 +174,67 @@ section{
     padding: 35px 10%;
 }
 /*
-Corpo
+Div Section
+*/
+
+
+/*
+Div Cotato
+*/
+.div-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10%;
+}
+
+#h2-contato{
+    text-align: center;
+    font-size: 1.8em;
+    text-shadow: 5px 5px 2px #0e1c26;
+    padding: 35px 10%;       
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-contato{
+    width: 675px;
+    height: 60px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+}
+
+textarea{
+    color: black;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input[type=submit]{
+    width: 250px;
+    height: 40px;
+    background-color: #f83d5c;
+    border: none;
+    margin: 20px 5px;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover{
+    color: #cacaca;
+}
+/*
+Div Cotato
 */
