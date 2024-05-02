@@ -114,6 +114,7 @@ Div Main
 
 .p-conteudo{
     margin: 20px 0px;
+    text-align: justify;
 }
 
 button{
@@ -153,6 +154,13 @@ Div Section
     text-align: justify;
     margin: 20px 0px;
 }
+
+.p-section-2{
+    text-align: center;
+    padding: 0px 60px;
+    width: 600px;
+}
+
 
 .container-section{
     width: 400px;
