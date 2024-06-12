@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #fffdd0;
+            font-family: 'Poppins';
+        }
+        h1{
+            text-align: center;
+            margin: 20px;
+            font-size: 3em;
+        }
+
+        .div-contato{
+            text-align: center;
+        }
+
+        .input-contato{
+        width: 675px;
+        height: 60px;
+        padding-left: 10px;
+        margin-top: 10px;
+        border-radius: 15px;
+        border: none;
+        color: black;
+        }
+        textarea{
+            color: black;
+            border: none;
+            border-radius: 15px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+        .btn{
+        display: inline-block;
+        padding: 15px 70px;
+        font-size: 16px;
+        font-weight: 500;
+        background: transparent;
+        border: solid 2px black;
+        transition: all.55 ease;
+        color: black;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+        .btn:hover{
+        background: black;
+        border: 2px solid black;
+        color: #fffdd0;
+    }
+
+    .button{
+        margin-top: 20px;
+    }
+
+    p{
+        text-align: justify;
+        width: 700px;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1>
+        Hoodie.co
+    </h1>
+    <p>Entre em contato conosco para qualquer dúvida, sugestão ou simplesmente para dizer olá! Estamos aqui para ajudar. Preencha o formulário abaixo ou utilize nossas informações de contato para nos alcançar. Mal podemos esperar para ouvir de você!</p>
+    <div class="div-contato">
+        <form action="formulario.php" method="get" autocomplete="off">
+            <h2 id="h2-contato">Contato</h2>
+            <div>
+                <input class="input-contato" type="text" placeholder="Seu nome...">
+            </div>
+            <div>
+                <input class="input-contato type="email" placeholder="Seu e-mail...">
+            </div>
+            <div>
+                <input class="input-contato type="tel" placeholder="Seu celular...">
+            </div>
+            <div>
+                <textarea cols="88" rows="20" placeholder="Mensagem..."></textarea>
+            </div>
+            <div class="button">
+                <a href="#" class="btn">Enviar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

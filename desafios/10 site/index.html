@@ -2,40 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fones de Ouvidos</title>
 </head>
-<link rel="stylesheet" href="/desafios/10 site/estilos/style.css">
-<link rel="stylesheet" href="/desafios/10 site/estilos/media-style.css">
 <body>
-    <header>
-        <h1>
-            E-commerce
-        </h1>
-        
-        <nav>
-            <ul>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#"></a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-            </ul>
-        </nav>
 
-        <div></div>
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-t-shirt'></i>Hoodie.co</a>
+
+        <ul class="navegação">
+            <li><a href="#">Visão geral</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="contato.html" target="_blank">Contato</a></li>
+        </ul><!--navegação-->
+
+        <div class="header-icons">
+            <i class='bx bx-cart'></i>
+            <div id="menu"><i class='bx bx-menu'></i></div>
+        </div><!--header-icons-->
     </header>
-    <main>
-        <div></div>
-        <div></div>
-        <div></div>
-    </main>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="product1.png" class="one">
+        </div><!--home-img-->
+
+        <div class="home-text">
+
+            <h1>Moletom <br> Confortável</h1>
+            <h5>A melhor forma de sair de casa</h5>
+            <h3>R$199.00</h3>
+            <a href="#" class="btn">Compre agora</a>
+            
+        </div><!--home-text-->
+    </section><!--home-->
+
+
+    <div class="main">
+        <div class="row">
+            <li><img src="product1.png" onclick="slider('product1.png')"></li>
+        </div><!--row-->
+
+        <div class="row2">
+            <li><img src="product2.png" onclick="slider('product2.png')"></li>
+        </div><!--row2-->
+
+        <div class="row3">
+            <li><img src="product3.png" onclick="slider('product3.png')"></li>
+        </div><!--row3-->
+    </div><!--main-->
+    <script>
+        function slider (anything){
+            document.querySelector ('.one') .src = anything;
+        };
+
+       let menu = document.querySelector ('#menu-icon');
+       let navbar = document.querySelector ('.navbar');
+
+       menu.onclick = () => {
+        menu.classList.toggle ('bx-x');
+        navbar.classList.toggle ('open');
+       }
+    </script>
+    
 </body>
 </html>
