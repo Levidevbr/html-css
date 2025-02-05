@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa1{
+    width: 5000000px;
+    height: 500px;
+    background-color: red;
+}
+
+.caixa2{
+    width: 5000000px;
+    height: 500px;
+    background-color: blue;
+}
