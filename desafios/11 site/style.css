@@ -13,6 +13,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    width: 100vw;
     background-color: white;
 }
 
@@ -39,12 +40,18 @@ nav a:hover{
 
 main{
     width: 100vw;
-    height: 700px;
+    height: 730px;
     background-image: url(img/img1.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.336);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -63,32 +70,87 @@ main{
     font-size: 66px;
     word-break: break-word;
     font-weight: 600;
+    ;
 }
 
 .cxtitulo p{
     font-size: 20px;
     padding-top: 15px;
-    text-align: ;
 }
 
 .cxcasos{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 50px;
+
 }
 
 .cx01{
-    width: 400px;
-    height: 300px;
-    color: ;
+    text-align: left;
+    height: 330px;
+    width: 300px;
+    background-color: #39aae1;
+}
+
+.cx01 h2{
+    padding: 30px;
+}
+
+.cx01 p{
+    padding: 0px 30px 30px 30px;
 }
 
 .cx02{
-    width: 400px;
-    height: 300px;
+    height: 330px;
+    width: 300px;
+    background-color: #0079c7;
 }
 
+.cx02 h2{
+    padding: 30px;
+}
+
+.cx02 p{
+    padding: 0px 30px 30px 30px
+}
+
+
 .cx03{
-    width: 400px;
-    height: 300px;
+    height: 330px;
+    width: 300px;
+    background-color: #2b4c99;
+}
+
+.cx03 h2{
+    padding: 30px;
+}
+
+.hrcomercial{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.hrsabado{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.hrdomingo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
 }
