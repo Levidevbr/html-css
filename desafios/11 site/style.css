@@ -13,7 +13,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 150px;
-    width: 100vw;
+    width: 100%;
     background-color: white;
 }
 
@@ -39,12 +39,12 @@ nav a:hover{
 }
 
 main{
-    width: 100vw;
+    width: 100%;
     height: 730px;
     background-image: url(img/img1.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: white;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.336);
 }
@@ -153,4 +153,50 @@ button{
     text-align: center;
     margin-left: 30px;
     cursor: pointer;
+}
+
+.container_noticias{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.noticias{
+    width: 68%;
+    height: 600px;
+}
+
+.noticias h2{
+    margin: 60px 0px 60px 100px;
+}
+
+.coluna_noticias{
+    display: flex;
+    flex-direction: row;
+}
+
+.cl_cx01 img
+{
+    width: 500px;
+}
+
+.cl_cx02 img
+{
+    width: 500px;
+}
+
+.cl_cx03 img
+{
+    width: 500px;
+}
+
+.cl_cx04 img
+{
+    width: 500px;
+}
+
+.coluna_departamentos{
+    width: 32%;
+    height: 600px;
+    background-color: blue;
 }
