@@ -166,33 +166,57 @@ button{
     height: 600px;
 }
 
-.noticias h2{
+.tl_noticias{
     margin: 60px 0px 60px 100px;
 }
 
 .coluna_noticias{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_cx01{
+    width: 450px;
+    margin: 30px;
 }
 
 .cl_cx01 img
 {
-    width: 500px;
+    width: 450px;
 }
 
 .cl_cx02 img
 {
-    width: 500px;
+    width: 450px;
+}
+
+.cl_cx02{
+    width: 450px;
+    margin: 30px;
 }
 
 .cl_cx03 img
 {
-    width: 500px;
+    width: 450px;
+}
+
+.cl_cx03{
+    width: 450px;
+    margin: 30px;
 }
 
 .cl_cx04 img
 {
-    width: 500px;
+    width: 450px;
+}
+
+.cl_cx04{
+    width: 450px;
+    margin: 30px;
 }
 
 .coluna_departamentos{
